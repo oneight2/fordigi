@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".eb-advanced-navigation-wrapper")}));

@@ -1,0 +1,2471 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Crowdfundly\n"
+"POT-Creation-Date: 2022-03-24 10:48+0600\n"
+"PO-Revision-Date: 2022-01-03 17:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: JoulesLabs\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__;esc_html_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: crowdfundly-ui/node_modules\n"
+"X-Poedit-SearchPathExcluded-4: assets/images\n"
+"X-Poedit-SearchPathExcluded-5: assets/admin/css\n"
+"X-Poedit-SearchPathExcluded-6: .env\n"
+"X-Poedit-SearchPathExcluded-7: .gitignore\n"
+"X-Poedit-SearchPathExcluded-8: .gitmodules\n"
+"X-Poedit-SearchPathExcluded-9: composer.json\n"
+"X-Poedit-SearchPathExcluded-10: composer.lock\n"
+"X-Poedit-SearchPathExcluded-11: mix-manifest.json\n"
+"X-Poedit-SearchPathExcluded-12: package.json\n"
+"X-Poedit-SearchPathExcluded-13: package-lock.json\n"
+"X-Poedit-SearchPathExcluded-14: Readme.md\n"
+"X-Poedit-SearchPathExcluded-15: webpack.mix.js\n"
+
+#: assets/admin/js/index.js:39147
+msgid "View Organization"
+msgstr ""
+
+#: assets/admin/js/index.js:39148
+msgid "Logout"
+msgstr ""
+
+#: src/Controllers/AllCampaignController.php:137
+#: src/resources/views/public/all-campaigns/camp-loop.php:67
+msgid "OF"
+msgstr ""
+
+#: src/Controllers/AuthenticationController.php:275
+msgid "Successfully Disconnected."
+msgstr ""
+
+#: src/Controllers/CustomizerController.php:52
+msgid "Organization Page"
+msgstr ""
+
+#: src/Controllers/CustomizerController.php:58
+msgid "All Campaign Page"
+msgstr ""
+
+#: src/Controllers/CustomizerController.php:64
+msgid "Single Campaign Page"
+msgstr ""
+
+#: src/Controllers/CustomizerController.php:75
+#: src/Controllers/ElementorController.php:93
+#: src/Controllers/ElementorController.php:111
+#: src/Helpers/Elementor/AllCampaignWidget.php:51
+#: src/Helpers/Elementor/OrganizationWidget.php:87
+#: src/Providers/MenuServiceProvider.php:31
+#: src/Providers/MenuServiceProvider.php:71
+msgid "Crowdfundly"
+msgstr ""
+
+#: src/Controllers/CustomizerController.php:76
+msgid "Crowdfundly Pages design."
+msgstr ""
+
+#: src/Controllers/ElementorController.php:110
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: src/Controllers/ElementorController.php:112
+msgid "Elementor"
+msgstr ""
+
+#: src/Controllers/PageTemplateController.php:31
+msgid "Crowdfundly Template"
+msgstr ""
+
+#: src/Controllers/SingleCampaignController.php:184
+msgid "Invalid video URL !"
+msgstr ""
+
+#: src/Controllers/SingleCampaignController.php:261
+msgid "This campaign is in readonly view and publicly invisible."
+msgstr ""
+
+#: src/Controllers/SingleCampaignController.php:264
+msgid "Target amount is raised"
+msgstr ""
+
+#: src/Controllers/SingleCampaignController.php:340
+#: src/resources/views/public/single-campaign/campaign-activites-tab.php:29
+msgid "Anonymous Contributor"
+msgstr ""
+
+#: src/Controllers/SingleCampaignController.php:344
+#: src/resources/views/public/single-campaign/campaign-activites-tab.php:33
+msgid "has contributed"
+msgstr ""
+
+#: src/Controllers/SingleCampaignController.php:353
+#: src/resources/views/public/single-campaign/campaign-activites-tab.php:42
+#: src/resources/views/public/single-campaign/campaign-top-contributers.php:27
+msgid "Amount:"
+msgstr ""
+
+#: src/Controllers/TeamController.php:39
+msgid "Role Assigned"
+msgstr ""
+
+#: src/Controllers/TeamController.php:51
+msgid "Role Removed"
+msgstr ""
+
+#: src/Controllers/TeamController.php:71
+msgid "Crowdfundly Admin"
+msgstr ""
+
+#: src/Controllers/TeamController.php:85
+msgid "Crowdfundly Manager"
+msgstr ""
+
+#: src/Controllers/TeamController.php:222
+msgid "Capabilities Updated"
+msgstr ""
+
+#: src/Helpers/CustomizerControls/DimensionControl.php:39
+msgid "Top"
+msgstr ""
+
+#: src/Helpers/CustomizerControls/DimensionControl.php:58
+#: src/Helpers/Elementor/AllCampaignWidget.php:569
+#: src/Helpers/Elementor/OrganizationWidget.php:652
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1970
+msgid "Right"
+msgstr ""
+
+#: src/Helpers/CustomizerControls/DimensionControl.php:77
+msgid "Bottom"
+msgstr ""
+
+#: src/Helpers/CustomizerControls/DimensionControl.php:96
+#: src/Helpers/Elementor/AllCampaignWidget.php:561
+#: src/Helpers/Elementor/OrganizationWidget.php:644
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1962
+msgid "Left"
+msgstr ""
+
+#: src/Helpers/CustomizerControls/RangeControl.php:42
+msgid "Reset"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:28
+msgid "Crowdfundly All Campaign"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:59
+#: src/Helpers/Elementor/AllCampaignWidget.php:94
+#: src/Helpers/Elementor/AllCampaignWidget.php:285
+#: src/Helpers/Elementor/AllCampaignWidget.php:325
+#: src/Helpers/Elementor/AllCampaignWidget.php:420
+#: src/Helpers/Elementor/AllCampaignWidget.php:453
+#: src/Helpers/Elementor/AllCampaignWidget.php:501
+#: src/Helpers/Elementor/AllCampaignWidget.php:649
+#: src/Helpers/Elementor/AllCampaignWidget.php:899
+#: src/Helpers/Elementor/AllCampaignWidget.php:1084
+#: src/Helpers/Elementor/AllCampaignWidget.php:1117
+#: src/Helpers/Elementor/OrganizationWidget.php:95
+#: src/Helpers/Elementor/OrganizationWidget.php:721
+#: src/Helpers/Elementor/OrganizationWidget.php:780
+#: src/Helpers/Elementor/OrganizationWidget.php:952
+#: src/Helpers/Elementor/OrganizationWidget.php:1152
+#: src/Helpers/Elementor/OrganizationWidget.php:1185
+#: src/Helpers/Elementor/SingleCampaignWidget.php:72
+#: src/Helpers/Elementor/SingleCampaignWidget.php:342
+#: src/Helpers/Elementor/SingleCampaignWidget.php:408
+#: src/Helpers/Elementor/SingleCampaignWidget.php:471
+#: src/Helpers/Elementor/SingleCampaignWidget.php:584
+#: src/Helpers/Elementor/SingleCampaignWidget.php:617
+#: src/Helpers/Elementor/SingleCampaignWidget.php:738
+#: src/Helpers/Elementor/SingleCampaignWidget.php:951
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1101
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1134
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1174
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1301
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1517
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1548
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1585
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1605
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1666
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1808
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1839
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2015
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2098
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2270
+#: src/resources/views/customizer/pages/all-campaign-page.php:359
+#: src/resources/views/customizer/pages/all-campaign-page.php:597
+#: src/resources/views/customizer/pages/organization-page.php:790
+msgid "Background Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:73
+#: src/resources/views/customizer/pages/all-campaign-page.php:49
+msgid "Search Bar"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:81
+#: src/Helpers/Elementor/OrganizationWidget.php:117
+#: src/Helpers/Elementor/OrganizationWidget.php:559
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1877
+#: src/resources/views/customizer/pages/all-campaign-page.php:66
+#: src/resources/views/customizer/pages/all-campaign-page.php:581
+#: src/resources/views/customizer/pages/organization-page.php:65
+#: src/resources/views/customizer/pages/organization-page.php:386
+#: src/resources/views/customizer/pages/single-campaign-page.php:913
+msgid "Hide Section"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:107
+#: src/Helpers/Elementor/OrganizationWidget.php:420
+#: src/Helpers/Elementor/OrganizationWidget.php:573
+#: src/Helpers/Elementor/SingleCampaignWidget.php:773
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1891
+#: src/resources/views/customizer/pages/organization-page.php:401
+#: src/resources/views/customizer/pages/single-campaign-page.php:928
+msgid "Heading"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:115
+#: src/Helpers/Elementor/OrganizationWidget.php:581
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1899
+msgid "Heading Text"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:118
+#: src/Helpers/Elementor/AllCampaignWidget.php:528
+#: src/Providers/MenuServiceProvider.php:81
+#: src/resources/views/public/all-campaigns/all-camp-header.php:8
+#: src/resources/views/public/all-campaigns/all-camp-header.php:14
+msgid "Campaigns"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:129
+#: src/Helpers/Elementor/AllCampaignWidget.php:225
+#: src/Helpers/Elementor/AllCampaignWidget.php:761
+#: src/Helpers/Elementor/AllCampaignWidget.php:817
+#: src/Helpers/Elementor/AllCampaignWidget.php:957
+#: src/Helpers/Elementor/OrganizationWidget.php:273
+#: src/Helpers/Elementor/OrganizationWidget.php:307
+#: src/Helpers/Elementor/OrganizationWidget.php:341
+#: src/Helpers/Elementor/OrganizationWidget.php:372
+#: src/Helpers/Elementor/OrganizationWidget.php:595
+#: src/Helpers/Elementor/OrganizationWidget.php:814
+#: src/Helpers/Elementor/OrganizationWidget.php:870
+#: src/Helpers/Elementor/OrganizationWidget.php:1010
+#: src/Helpers/Elementor/SingleCampaignWidget.php:201
+#: src/Helpers/Elementor/SingleCampaignWidget.php:279
+#: src/Helpers/Elementor/SingleCampaignWidget.php:333
+#: src/Helpers/Elementor/SingleCampaignWidget.php:399
+#: src/Helpers/Elementor/SingleCampaignWidget.php:781
+#: src/Helpers/Elementor/SingleCampaignWidget.php:811
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1241
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1271
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1368
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1398
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1637
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1698
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1913
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2132
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2188
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2328
+msgid "Typography"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:138
+#: src/Helpers/Elementor/AllCampaignWidget.php:171
+#: src/Helpers/Elementor/AllCampaignWidget.php:441
+#: src/Helpers/Elementor/AllCampaignWidget.php:513
+#: src/Helpers/Elementor/AllCampaignWidget.php:770
+#: src/Helpers/Elementor/AllCampaignWidget.php:826
+#: src/Helpers/Elementor/AllCampaignWidget.php:923
+#: src/Helpers/Elementor/AllCampaignWidget.php:1105
+#: src/Helpers/Elementor/OrganizationWidget.php:285
+#: src/Helpers/Elementor/OrganizationWidget.php:319
+#: src/Helpers/Elementor/OrganizationWidget.php:350
+#: src/Helpers/Elementor/OrganizationWidget.php:381
+#: src/Helpers/Elementor/OrganizationWidget.php:604
+#: src/Helpers/Elementor/OrganizationWidget.php:823
+#: src/Helpers/Elementor/OrganizationWidget.php:879
+#: src/Helpers/Elementor/OrganizationWidget.php:976
+#: src/Helpers/Elementor/SingleCampaignWidget.php:210
+#: src/Helpers/Elementor/SingleCampaignWidget.php:256
+#: src/Helpers/Elementor/SingleCampaignWidget.php:288
+#: src/Helpers/Elementor/SingleCampaignWidget.php:483
+#: src/Helpers/Elementor/SingleCampaignWidget.php:572
+#: src/Helpers/Elementor/SingleCampaignWidget.php:790
+#: src/Helpers/Elementor/SingleCampaignWidget.php:820
+#: src/Helpers/Elementor/SingleCampaignWidget.php:963
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1186
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1250
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1280
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1313
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1377
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1407
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1616
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1646
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1677
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1707
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1922
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2141
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2197
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2294
+#: src/resources/views/customizer/pages/all-campaign-page.php:627
+#: src/resources/views/customizer/pages/organization-page.php:820
+msgid "Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:151
+msgid "Search Icon"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:159
+#: src/Helpers/Elementor/SingleCampaignWidget.php:243
+msgid "Font Size"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:184
+msgid "Search Input"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:192
+#: src/Helpers/Elementor/AllCampaignWidget.php:349
+#: src/Helpers/Elementor/AllCampaignWidget.php:944
+#: src/Helpers/Elementor/AllCampaignWidget.php:1013
+#: src/Helpers/Elementor/OrganizationWidget.php:997
+#: src/Helpers/Elementor/OrganizationWidget.php:1065
+#: src/Helpers/Elementor/SingleCampaignWidget.php:504
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1020
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1436
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1727
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2315
+#: src/resources/views/customizer/pages/organization-page.php:748
+msgid "Padding"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:204
+#: src/Helpers/Elementor/AllCampaignWidget.php:378
+#: src/Helpers/Elementor/AllCampaignWidget.php:591
+#: src/Helpers/Elementor/AllCampaignWidget.php:715
+#: src/Helpers/Elementor/AllCampaignWidget.php:1042
+#: src/Helpers/Elementor/OrganizationWidget.php:698
+#: src/Helpers/Elementor/OrganizationWidget.php:766
+#: src/Helpers/Elementor/OrganizationWidget.php:1105
+#: src/Helpers/Elementor/SingleCampaignWidget.php:535
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1060
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1476
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1767
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1992
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2084
+#: src/resources/views/customizer/pages/organization-page.php:764
+msgid "Border Radius"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:234
+#: src/Helpers/Elementor/AllCampaignWidget.php:407
+#: src/Helpers/Elementor/AllCampaignWidget.php:1071
+#: src/Helpers/Elementor/OrganizationWidget.php:1140
+#: src/Helpers/Elementor/OrganizationWidget.php:1173
+#: src/Helpers/Elementor/SingleCampaignWidget.php:605
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1089
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1122
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1505
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1537
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1796
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1828
+msgid "Text Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:246
+msgid "Placeholder Text Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:262
+#: src/Helpers/Elementor/AllCampaignWidget.php:400
+#: src/Helpers/Elementor/AllCampaignWidget.php:1064
+#: src/Helpers/Elementor/OrganizationWidget.php:1133
+#: src/Helpers/Elementor/SingleCampaignWidget.php:565
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1082
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1498
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1789
+msgid "Normal"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:299
+msgid "Focus"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:341
+#: src/Helpers/Elementor/OrganizationWidget.php:1044
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1012
+msgid "Button"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:434
+#: src/Helpers/Elementor/AllCampaignWidget.php:1098
+#: src/Helpers/Elementor/OrganizationWidget.php:1166
+#: src/Helpers/Elementor/SingleCampaignWidget.php:598
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1115
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1530
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1821
+msgid "Hover"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:465
+#: src/Helpers/Elementor/AllCampaignWidget.php:1129
+#: src/Helpers/Elementor/OrganizationWidget.php:1197
+#: src/Helpers/Elementor/SingleCampaignWidget.php:629
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1146
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1559
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1850
+#: src/resources/views/customizer/pages/all-campaign-page.php:657
+#: src/resources/views/customizer/pages/organization-page.php:850
+msgid "Border Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:484
+msgid "SortBy Dropdown"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:536
+msgid "Per Page"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:549
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1577
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1935
+#: src/resources/views/customizer/pages/all-campaign-page.php:303
+msgid "Card"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:557
+#: src/Helpers/Elementor/OrganizationWidget.php:640
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1958
+msgid "Content Alignment"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:565
+#: src/Helpers/Elementor/OrganizationWidget.php:648
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1966
+msgid "Center"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:603
+#: src/Helpers/Elementor/OrganizationWidget.php:625
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1943
+msgid "Select Column"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:607
+#: src/Helpers/Elementor/OrganizationWidget.php:629
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1947
+#: src/resources/views/customizer/pages/all-campaign-page.php:343
+#: src/resources/views/customizer/pages/organization-page.php:498
+#: src/resources/views/customizer/pages/single-campaign-page.php:1025
+msgid "One Column"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:608
+#: src/Helpers/Elementor/OrganizationWidget.php:630
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1948
+#: src/resources/views/customizer/pages/all-campaign-page.php:344
+#: src/resources/views/customizer/pages/organization-page.php:499
+#: src/resources/views/customizer/pages/single-campaign-page.php:1026
+msgid "Two Column"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:609
+#: src/Helpers/Elementor/OrganizationWidget.php:631
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1949
+#: src/resources/views/customizer/pages/all-campaign-page.php:345
+#: src/resources/views/customizer/pages/organization-page.php:500
+#: src/resources/views/customizer/pages/single-campaign-page.php:1027
+msgid "Three Column"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:610
+#: src/Helpers/Elementor/OrganizationWidget.php:632
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1950
+#: src/resources/views/customizer/pages/all-campaign-page.php:346
+#: src/resources/views/customizer/pages/organization-page.php:501
+#: src/resources/views/customizer/pages/single-campaign-page.php:1028
+msgid "Four Column"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:618
+msgid "Space Between Campaigns"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:661
+#: src/Helpers/Elementor/AllCampaignWidget.php:911
+#: src/Helpers/Elementor/OrganizationWidget.php:745
+#: src/Helpers/Elementor/OrganizationWidget.php:792
+#: src/Helpers/Elementor/OrganizationWidget.php:964
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2039
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2110
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2282
+#: src/resources/views/customizer/pages/all-campaign-page.php:374
+#: src/resources/views/customizer/pages/all-campaign-page.php:612
+#: src/resources/views/customizer/pages/organization-page.php:805
+msgid "Hover Background Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:674
+#: src/Helpers/Elementor/OrganizationWidget.php:734
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2028
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:682
+#: src/Helpers/Elementor/OrganizationWidget.php:674
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2051
+msgid "Detail Section Padding"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:694
+#: src/Helpers/Elementor/OrganizationWidget.php:686
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2063
+msgid "Detail Section Height"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:707
+#: src/Helpers/Elementor/SingleCampaignWidget.php:832
+msgid "Image"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:729
+#: src/Helpers/Elementor/OrganizationWidget.php:130
+#: src/Helpers/Elementor/OrganizationWidget.php:198
+#: src/Helpers/Elementor/SingleCampaignWidget.php:840
+msgid "Width"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:752
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1232
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1359
+#: src/Providers/AssetServiceProvider.php:103
+#: src/resources/views/public/single-campaign/form/after-donation.php:44
+msgid "Name"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:782
+#: src/Helpers/Elementor/AllCampaignWidget.php:838
+#: src/Helpers/Elementor/OrganizationWidget.php:835
+#: src/Helpers/Elementor/OrganizationWidget.php:891
+#: src/Helpers/Elementor/SingleCampaignWidget.php:300
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2153
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2209
+#: src/resources/views/customizer/pages/all-campaign-page.php:642
+#: src/resources/views/customizer/pages/organization-page.php:835
+msgid "Hover Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:795
+#: src/Helpers/Elementor/OrganizationWidget.php:363
+#: src/Helpers/Elementor/OrganizationWidget.php:848
+#: src/Helpers/Elementor/SingleCampaignWidget.php:920
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1262
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1389
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2166
+#: src/resources/views/admin/organization/create.php:75
+msgid "Description"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:803
+#: src/Helpers/Elementor/OrganizationWidget.php:856
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2174
+msgid "Hide Description"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:851
+#: src/Helpers/Elementor/OrganizationWidget.php:904
+#: src/Helpers/Elementor/SingleCampaignWidget.php:445
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2222
+msgid "Progress Bar"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:859
+#: src/Helpers/Elementor/OrganizationWidget.php:428
+#: src/Helpers/Elementor/OrganizationWidget.php:912
+#: src/Helpers/Elementor/SingleCampaignWidget.php:188
+#: src/Helpers/Elementor/SingleCampaignWidget.php:231
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2230
+msgid "Bottom Spacing"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:877
+#: src/Helpers/Elementor/OrganizationWidget.php:221
+#: src/Helpers/Elementor/OrganizationWidget.php:930
+#: src/Helpers/Elementor/SingleCampaignWidget.php:453
+#: src/Helpers/Elementor/SingleCampaignWidget.php:858
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2248
+#: src/resources/views/customizer/pages/organization-page.php:84
+msgid "Height"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:936
+msgid "Target amount"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:966
+msgid "Targe Amount Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:978
+#: src/Helpers/Elementor/OrganizationWidget.php:1031
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2349
+#: src/resources/views/customizer/pages/all-campaign-page.php:515
+#: src/resources/views/customizer/pages/single-campaign-page.php:1212
+msgid "Raised Amount Color"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:992
+#: src/Providers/AssetServiceProvider.php:223
+#: src/resources/views/public/all-campaigns/camp-loop.php:108
+msgid "Load More"
+msgstr ""
+
+#: src/Helpers/Elementor/AllCampaignWidget.php:1000
+#: src/Helpers/Elementor/OrganizationWidget.php:1052
+#: src/resources/views/customizer/pages/organization-page.php:729
+msgid "Hide Button"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:29
+msgid "Crowdfundly Organization"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:67
+#, php-format
+msgid "Hide %s"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:109
+#: src/resources/views/customizer/pages/organization-page.php:47
+msgid "Slider"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:158
+#: src/resources/views/customizer/pages/organization-page.php:101
+msgid "Organization Detail"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:166
+msgid "Template One Background Color"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:190
+msgid "Logo"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:264
+#: src/Helpers/Elementor/SingleCampaignWidget.php:270
+#: src/resources/views/admin/organization/create.php:29
+msgid "Organization Name"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:298
+#: src/resources/views/admin/organization/create.php:67
+msgid "Address"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:332
+#: src/resources/views/customizer/pages/all-campaign-page.php:81
+msgid "Title"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:396
+msgid "Social Media"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:404
+msgid "Template Two Background Color"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:446
+msgid "Space Between Icon & Text"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:465
+msgid "Heading Typography"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:474
+#: src/resources/views/customizer/pages/organization-page.php:439
+#: src/resources/views/customizer/pages/single-campaign-page.php:944
+msgid "Heading Color"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:486
+msgid "Icon Size"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:506
+msgid "Media Name Typography"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:515
+msgid "Media Name Color"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:528
+msgid "Media Link Typography"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:537
+msgid "Media Link Color"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:551
+#: src/Helpers/Elementor/OrganizationWidget.php:584
+#: src/resources/views/customizer/pages/organization-page.php:369
+#: src/resources/views/public/organization/template-one.php:132
+#: src/resources/views/public/organization/template-one.php:139
+#: src/resources/views/public/organization/template-two.php:126
+#: src/resources/views/public/organization/template-two.php:133
+msgid "Recent Campaign"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:617
+#: src/resources/views/customizer/pages/organization-page.php:473
+#: src/resources/views/customizer/pages/single-campaign-page.php:1000
+msgid "Campaign Card"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:758
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2076
+msgid "Campaign Image"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:805
+#: src/Helpers/Elementor/SingleCampaignWidget.php:180
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2123
+msgid "Campaign Title"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:989
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2307
+#: src/resources/views/admin/campaign/manage/edit.php:40
+msgid "Target Amount"
+msgstr ""
+
+#: src/Helpers/Elementor/OrganizationWidget.php:1019
+#: src/Helpers/Elementor/SingleCampaignWidget.php:2337
+#: src/resources/views/customizer/pages/all-campaign-page.php:530
+#: src/resources/views/customizer/pages/single-campaign-page.php:1227
+msgid "Target Amount Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:30
+msgid "Crowdfundly Single Campaign"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:53
+#: src/Helpers/Elementor/SingleCampaignWidget.php:658
+msgid "Common Settings"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:61
+msgid "Select Campaign"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:86
+#: src/resources/views/customizer/pages/single-campaign-page.php:44
+msgid "Campaign Detail"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:95
+msgid "Gallery"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:102
+msgid "Large Image Border Radius"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:117
+msgid "Large Image Background Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:129
+msgid "Large Image Border Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:141
+msgid "Thumbnail Border Radius"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:153
+msgid "Thumbnail Background Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:166
+msgid "Arrow Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:223
+msgid "Campaign Status"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:313
+#: src/resources/views/public/single-campaign/campaign-detail.php:53
+msgid "Funding Goal"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:354
+#: src/Helpers/Elementor/SingleCampaignWidget.php:420
+msgid "Value Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:366
+#: src/Helpers/Elementor/SingleCampaignWidget.php:432
+msgid "Label Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:379
+msgid "Fund Raised"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:496
+msgid "Donation Button"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:649
+msgid "Tabs Common Settings"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:665
+#: src/resources/views/customizer/pages/single-campaign-page.php:719
+msgid "Tab Text Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:677
+msgid "Tab Count Text Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:689
+#: src/resources/views/customizer/pages/single-campaign-page.php:771
+msgid "Active Tab Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:701
+#: src/resources/views/customizer/pages/single-campaign-page.php:756
+msgid "Active Tab Background Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:713
+#: src/resources/views/customizer/pages/single-campaign-page.php:786
+msgid "Active Tab Border Bottom Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:726
+msgid "Tab Content Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:750
+msgid "Tab Border Background Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:764
+msgid "Campaign Story Tab"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:802
+msgid "Paragraph"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:878
+msgid "Update Tab"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:886
+msgid "Line Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:899
+msgid "Date"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:908
+msgid "Date Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:929
+#: src/resources/views/customizer/pages/organization-page.php:334
+msgid "Description Color"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:943
+msgid "Activites Tab"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:980
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1200
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1327
+msgid "Avatar"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:988
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1208
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1335
+msgid "Avatar Border Radius"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1166
+msgid "Endorsement Tab"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1293
+msgid "Top Contributors Tab"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1420
+msgid "Reward Tab"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1429
+msgid "Tab Button"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1597
+#: src/resources/views/public/single-campaign/campaign-top-contributers.php:35
+msgid "Badge"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1628
+msgid "Product Name"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1658
+msgid "Stock Badge"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1689
+msgid "Offered Price"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1719
+msgid "Get Now Button"
+msgstr ""
+
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1869
+#: src/Helpers/Elementor/SingleCampaignWidget.php:1902
+#: src/resources/views/customizer/pages/single-campaign-page.php:896
+#: src/resources/views/public/single-campaign/campaign-similar-camp.php:9
+#: src/resources/views/public/single-campaign/campaign-similar-camp.php:15
+msgid "Similar Campaign"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:93
+msgid "Connected"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:94
+msgid "Connecting..."
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:95
+msgid "Successfully connected"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:96
+msgid "Successfully Login"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:97
+#: src/Providers/AssetServiceProvider.php:220
+msgid "Success"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:98
+#: src/Providers/AssetServiceProvider.php:217
+msgid "Failed"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:99
+msgid "Log Out"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:104
+msgid "Role"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:105
+msgid "Actions"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:218
+msgid "Please try again"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:219
+msgid "Thanks, for your contribution"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:221
+msgid "Loading..."
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:222
+#: src/resources/views/public/single-campaign.php:111
+msgid "Activities"
+msgstr ""
+
+#: src/Providers/AssetServiceProvider.php:224
+#: src/resources/views/public/single-campaign/form/simple-donation.php:275
+msgid "Contribute Now"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:37
+msgid "App Key Login"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:41
+msgid "Email Login"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:45
+msgid "Select Organization"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:50
+#: src/resources/views/admin/auth/signup.php:66
+msgid "Sign Up"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:55
+msgid "Package"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:60
+msgid "Create organization"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:77
+msgid "Dashboard"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:84
+msgid "Online Contributions"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:88
+msgid "Offline Contributions"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:92
+msgid "Wallet"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:99
+msgid "Team & Roles"
+msgstr ""
+
+#: src/Providers/MenuServiceProvider.php:146
+#: src/resources/views/admin/_settings/settings.php:56
+msgid "Settings"
+msgstr ""
+
+#: src/resources/views/admin/_settings/settings-header.php:3
+msgid "Crowdfundly Logo"
+msgstr ""
+
+#: src/resources/views/admin/_settings/settings-header.php:7
+msgid "Build Your"
+msgstr ""
+
+#: src/resources/views/admin/_settings/settings-header.php:8
+msgid "Fundraising"
+msgstr ""
+
+#: src/resources/views/admin/_settings/settings-header.php:9
+msgid "Platform"
+msgstr ""
+
+#: src/resources/views/admin/_settings/settings-header.php:15
+msgid "Version:"
+msgstr ""
+
+#: src/resources/views/admin/_settings/settings.php:29
+msgid "General"
+msgstr ""
+
+#: src/resources/views/admin/_settings/settings.php:38
+msgid "Design"
+msgstr ""
+
+#: src/resources/views/admin/_settings/settings.php:47
+msgid "Shortcodes"
+msgstr ""
+
+#: src/resources/views/admin/auth/appkey-login.php:10
+msgid "APP Key"
+msgstr ""
+
+#: src/resources/views/admin/auth/appkey-login.php:12
+msgid "Please enter app key here."
+msgstr ""
+
+#: src/resources/views/admin/auth/appkey-login.php:19
+msgid "Connect"
+msgstr ""
+
+#: src/resources/views/admin/auth/email-login.php:10
+#: src/resources/views/public/single-campaign/set-reminder.php:63
+msgid "Email Address"
+msgstr ""
+
+#: src/resources/views/admin/auth/email-login.php:12
+#: src/resources/views/admin/auth/subscribe.php:126
+msgid "example@email.com"
+msgstr ""
+
+#: src/resources/views/admin/auth/email-login.php:18
+#: src/resources/views/admin/auth/package/payment.php:182
+#: src/resources/views/admin/auth/signup.php:28
+#: src/resources/views/admin/auth/signup.php:32
+#: src/resources/views/admin/auth/subscribe.php:132
+msgid "Password"
+msgstr ""
+
+#: src/resources/views/admin/auth/email-login.php:26
+msgid "Log In"
+msgstr ""
+
+#: src/resources/views/admin/auth/email-login.php:34
+msgid "Select your organization"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:11
+msgid "Choose a Package"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:31
+#: src/resources/views/admin/auth/package/index.php:70
+msgid "Apply coupon"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:38
+#: src/resources/views/admin/auth/package/payment.php:247
+#: src/resources/views/admin/auth/subscribe.php:73
+msgid "Have a coupon?"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:41
+#: src/resources/views/admin/auth/package/payment.php:250
+#: src/resources/views/admin/auth/subscribe.php:77
+msgid "Apply your coupon code to get a discount"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:47
+msgid "Applied coupons"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:51
+#: src/resources/views/admin/auth/package/payment.php:243
+#: src/resources/views/admin/auth/subscribe.php:69
+msgid "Coupon"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:53
+msgid "applied for"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:64
+msgid "Change coupon"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:84
+msgid "Cart information"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:91
+#: src/resources/views/admin/auth/package/payment.php:22
+#: src/resources/views/admin/auth/subscribe.php:34
+msgid "Package Name"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:92
+#: src/resources/views/admin/auth/package/payment.php:23
+#: src/resources/views/admin/auth/subscribe.php:35
+msgid "Price"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:93
+msgid "Quantity"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:94
+msgid "Subtotal"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:108
+msgid "Subtotal ="
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:114
+msgid "Coupon discount ="
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:120
+msgid "Grand total ="
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:132
+msgid "Payment details"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:138
+msgid "Choose way to pay"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:141
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorum "
+"libero nam non\n"
+"                                nulla, recusandae."
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:153
+msgid "Payment By Stripe"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:158
+msgid "Stripe"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:168
+msgid "Payment By PayPal"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:174
+msgid "PayPal"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/index.php:197
+msgid "Pay Now"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:14
+#: src/resources/views/admin/auth/subscribe.php:26
+msgid "Package Information"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:35
+#: src/resources/views/admin/auth/subscribe.php:47
+msgid "Total="
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:40
+#: src/resources/views/admin/auth/subscribe.php:52
+msgid "View pay per use policy"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:157
+#: src/resources/views/admin/auth/subscribe.php:97
+msgid "Your information"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:163
+#: src/resources/views/admin/auth/subscribe.php:104
+msgid "Your Full Name"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:172
+#: src/resources/views/admin/auth/subscribe.php:118
+msgid "Your Email"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:191
+#: src/resources/views/admin/auth/signup.php:39
+#: src/resources/views/admin/auth/subscribe.php:146
+msgid "Confirm Password"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:209
+#: src/resources/views/admin/auth/subscribe.php:169
+msgid "By creating an account, I accept the"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:211
+#: src/resources/views/admin/auth/subscribe.php:171
+msgid "terms"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:212
+#: src/resources/views/admin/auth/subscribe.php:172
+msgid "and"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:217
+#: src/resources/views/admin/auth/subscribe.php:177
+msgid "privacy"
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:218
+#: src/resources/views/admin/auth/subscribe.php:178
+msgid "conditions."
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:260
+#: src/resources/views/admin/auth/subscribe.php:88
+msgid "A charge may apply based on usage at the end of your billing period."
+msgstr ""
+
+#: src/resources/views/admin/auth/package/payment.php:262
+#: src/resources/views/admin/auth/subscribe.php:90
+msgid "Check usage pricing"
+msgstr ""
+
+#: src/resources/views/admin/auth/signup.php:10
+msgid "Full Name"
+msgstr ""
+
+#: src/resources/views/admin/auth/signup.php:12
+msgid "Your full name"
+msgstr ""
+
+#: src/resources/views/admin/auth/signup.php:19
+msgid "Email"
+msgstr ""
+
+#: src/resources/views/admin/auth/signup.php:43
+msgid "Confirm password"
+msgstr ""
+
+#: src/resources/views/admin/auth/signup.php:52
+msgid "By Creating An Account, I Accept The"
+msgstr ""
+
+#: src/resources/views/admin/auth/signup.php:54
+msgid "Terms"
+msgstr ""
+
+#: src/resources/views/admin/auth/signup.php:57
+msgid "And Privacy"
+msgstr ""
+
+#: src/resources/views/admin/auth/signup.php:59
+msgid "Conditions"
+msgstr ""
+
+#: src/resources/views/admin/auth/subscribe.php:13
+msgid "Choose Package"
+msgstr ""
+
+#: src/resources/views/admin/auth/subscribe.php:112
+msgid "Your Name"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:15
+msgid "Basic"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:18
+msgid "View Campaign"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:27
+msgid "Campaign Name"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:28
+msgid "Write your campaign title"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:73
+msgid "Duration"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:81
+msgid "On going"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:89
+msgid "Deadline"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:101
+msgid "Select date"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:110
+#: src/resources/views/public/single-campaign/form/simple-donation.php:87
+msgid "Recurring"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:113
+msgid "On"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:117
+msgid "Off"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:125
+msgid "Payment Gateway"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:133
+msgid "is not configured."
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:134
+msgid "set configaration"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:147
+msgid "Media"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:153
+msgid "Thumbnail"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:160
+msgid "Upload Image/Video"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:164
+msgid "You can drag & drop image & video link"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:181
+msgid "Story"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:195
+msgid "Additional Info"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:210
+msgid "Cancel"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:215
+msgid "Save"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:230
+msgid "Reward"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:251
+#: src/resources/views/admin/campaign/manage/edit.php:362
+msgid "Edit"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:256
+#: src/resources/views/admin/campaign/manage/edit.php:366
+#: src/resources/views/admin/dashboard/campaigns/index.php:114
+msgid "Delete"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:264
+msgid "Stock"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:269
+#: src/resources/views/admin/campaign/manage/edit.php:378
+msgid "Price:"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:292
+msgid "Shipping to"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:306
+msgid "Shipping Fee"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:329
+msgid "Add new reward"
+msgstr ""
+
+#: src/resources/views/admin/campaign/manage/edit.php:406
+msgid "Add new Package"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/campaigns/index.php:82
+msgid "Manage"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/campaigns/index.php:90
+msgid "Set as raised"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/campaigns/index.php:102
+msgid "Publish campaign"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/campaigns/index.php:130
+msgid "Draft"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/team/add-role-popup.php:8
+msgid "Select User"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/team/add-role-popup.php:24
+msgid "Select Role"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/team/add-role-popup.php:44
+msgid "Assign"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/team/edit-cap-popup.php:12
+msgid "Update"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/team/team.php:21
+msgid "Assign Role"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/team/team.php:53
+msgid "Edit Capabilities"
+msgstr ""
+
+#: src/resources/views/admin/dashboard/team/team.php:60
+msgid "Remove Crowdfundly Role"
+msgstr ""
+
+#: src/resources/views/admin/general/welcome.php:7
+msgid "Start crowdfunding with greatly optimized fundraising process."
+msgstr ""
+
+#: src/resources/views/admin/general/welcome.php:9
+msgid "Build a platform that you can be proud of."
+msgstr ""
+
+#: src/resources/views/admin/general/welcome.php:12
+msgid "I Have An Account"
+msgstr ""
+
+#: src/resources/views/admin/general/welcome.php:15
+msgid "Create An Account"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:10
+msgid "Create Your Organization"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:15
+msgid "Select A Plan"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:20
+msgid "Select a plan"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:33
+msgid "Enter organization name"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:37
+msgid "Username"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:60
+msgid "Tip:"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:61
+msgid ""
+"Length must be between 4 and 20 lowercase characters, numbers and - in "
+"middle are\n"
+"                                allowed."
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:71
+msgid "Write organization address here.."
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:87
+msgid "Country"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:102
+msgid "Currency"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:107
+msgid "Select currency"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:115
+msgid "Note:"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:116
+msgid "You can't change the currency after the organization is created."
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:121
+msgid "Contact Number"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:128
+msgid "Select code"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:137
+msgid "Enter contact number here"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:146
+msgid "I agree to the"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:148
+msgid "Privacy policy"
+msgstr ""
+
+#: src/resources/views/admin/organization/create.php:156
+msgid "Submit"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:16
+#: src/resources/views/public/organization/template-one.php:207
+#: src/resources/views/public/organization/template-two.php:201
+#: src/resources/views/public/single-campaign/campaign-not-found.php:17
+msgid "All Campaigns"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:34
+#: src/resources/views/customizer/pages/organization-page.php:34
+msgid "Page Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:100
+#: src/resources/views/customizer/pages/organization-page.php:293
+msgid "Title Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:119
+#: src/resources/views/customizer/pages/organization-page.php:275
+msgid "Title Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:134
+msgid "Search Bar Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:149
+msgid "Search Icon Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:164
+msgid "Search Input Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:179
+msgid "Search Input Placeholder Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:194
+msgid "Search Button Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:212
+msgid "Search Button Text Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:231
+msgid "Search Button Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:246
+msgid "Search Button Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:261
+msgid "Search Button Hover Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:276
+msgid "Search Button Hover Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:291
+msgid "Search Button Hover Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:324
+msgid "Campaigns Per Page"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:339
+msgid "Grid Column"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:342
+#: src/resources/views/customizer/pages/organization-page.php:318
+#: src/resources/views/customizer/pages/organization-page.php:460
+#: src/resources/views/customizer/pages/organization-page.php:497
+#: src/resources/views/customizer/pages/single-campaign-page.php:150
+#: src/resources/views/customizer/pages/single-campaign-page.php:464
+#: src/resources/views/customizer/pages/single-campaign-page.php:987
+#: src/resources/views/customizer/pages/single-campaign-page.php:1024
+msgid "Select Option"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:392
+msgid "Image Width"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:411
+#: src/resources/views/customizer/pages/organization-page.php:559
+#: src/resources/views/customizer/pages/single-campaign-page.php:107
+msgid "Campaign Name Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:429
+#: src/resources/views/customizer/pages/organization-page.php:577
+#: src/resources/views/customizer/pages/single-campaign-page.php:125
+msgid "Campaign Name Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:448
+#: src/resources/views/customizer/pages/organization-page.php:596
+#: src/resources/views/customizer/pages/single-campaign-page.php:1123
+msgid "Campaign Description Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:466
+#: src/resources/views/customizer/pages/organization-page.php:614
+#: src/resources/views/customizer/pages/single-campaign-page.php:1141
+msgid "Campaign Description Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:485
+#: src/resources/views/customizer/pages/single-campaign-page.php:323
+msgid "Progress Bar Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:500
+msgid "Progress Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:548
+#: src/resources/views/customizer/pages/single-campaign-page.php:1193
+msgid "Target & Raised Amount Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:564
+msgid "Load More Button"
+msgstr ""
+
+#: src/resources/views/customizer/pages/all-campaign-page.php:672
+#: src/resources/views/customizer/pages/organization-page.php:865
+msgid "Hover Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:16
+msgid "Organization"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:119
+msgid "Section Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:137
+msgid "Organization Logo Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:156
+msgid "Name Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:174
+msgid "Name Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:193
+msgid "Address Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:208
+msgid "Social Media Heading Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:223
+msgid "Social Media Name Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:238
+msgid "Social Media Link Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:256
+msgid "Social Icon Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:315
+msgid "Title Text Transform"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:319
+#: src/resources/views/customizer/pages/organization-page.php:461
+#: src/resources/views/customizer/pages/single-campaign-page.php:151
+#: src/resources/views/customizer/pages/single-campaign-page.php:465
+#: src/resources/views/customizer/pages/single-campaign-page.php:988
+msgid "Uppercase"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:320
+#: src/resources/views/customizer/pages/organization-page.php:462
+#: src/resources/views/customizer/pages/single-campaign-page.php:152
+#: src/resources/views/customizer/pages/single-campaign-page.php:466
+#: src/resources/views/customizer/pages/single-campaign-page.php:989
+msgid "Capitalize"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:321
+#: src/resources/views/customizer/pages/organization-page.php:463
+#: src/resources/views/customizer/pages/single-campaign-page.php:153
+#: src/resources/views/customizer/pages/single-campaign-page.php:467
+#: src/resources/views/customizer/pages/single-campaign-page.php:990
+msgid "Lowercase"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:352
+msgid "Description Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:420
+#: src/resources/views/customizer/pages/single-campaign-page.php:962
+msgid "Heading Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:457
+#: src/resources/views/customizer/pages/single-campaign-page.php:984
+msgid "Heading Text Transform"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:494
+#: src/resources/views/customizer/pages/single-campaign-page.php:1021
+msgid "Campaign Grid Column"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:514
+#: src/resources/views/customizer/pages/single-campaign-page.php:1041
+msgid "Campaign Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:529
+#: src/resources/views/customizer/pages/single-campaign-page.php:1056
+msgid "Campaign Hover Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:544
+#: src/resources/views/customizer/pages/single-campaign-page.php:1071
+msgid "Campaign Image Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:633
+#: src/resources/views/customizer/pages/single-campaign-page.php:1160
+msgid "Campaign Progress Bar Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:648
+#: src/resources/views/customizer/pages/single-campaign-page.php:1175
+msgid "Campaign Progress Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:663
+msgid "Campaign Raised Amount Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:681
+msgid "Campaign Raised Amount Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:700
+msgid "Campaign Target Amount Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/organization-page.php:712
+msgid "All Campaign Button"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:14
+msgid "Campaign"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:32
+msgid "Page background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:62
+msgid "Campaign Gallery Image Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:77
+msgid "Campaign Gallery Image Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:92
+msgid "Campaign Gallery Arrow Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:147
+msgid "Campaign Name Text Transform"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:166
+msgid "Campaign Status Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:181
+msgid "Organization Name Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:199
+msgid "Organization Name Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:218
+msgid "\"By\" Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:233
+msgid "Funding Goal background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:248
+msgid "Funding Goal Text Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:263
+msgid "Funding Raised background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:278
+msgid "Funding Raised Text Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:293
+msgid "Funding Duration background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:308
+msgid "Funding Duration Text Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:338
+msgid "Progress Bar Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:353
+msgid "Contribute Button Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:368
+msgid "Contribute Button Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:383
+msgid "Contribute Button Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:398
+msgid "Contribute Button Hover Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:413
+msgid "Contribute Button Hover Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:428
+msgid "Contribute Button Hover Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:436
+#: src/resources/views/public/single-campaign/campaign-detail.php:111
+msgid "Contribute"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:442
+msgid "Contribute Button Text"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:461
+msgid "Contribute Button Text Transform"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:483
+msgid "Contribute Button Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:499
+msgid "Popups"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:517
+msgid "Popup Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:532
+msgid "Popup Input Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:547
+msgid "Popup Input Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:559
+msgid "Donation Popup"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:577
+msgid "Popup Preset Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:592
+msgid "Popup Preset Hover Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:607
+msgid "Popup Preset Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:622
+msgid "Popup Contribute Button Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:637
+msgid "Popup Contribute Button Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:652
+msgid "Popup Contribute Button Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:670
+msgid "Popup Contribute Button Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:686
+msgid "Tabs"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:704
+msgid "Tab Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:737
+msgid "Tab Text Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:801
+msgid "Tab Content Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:816
+msgid "Tab Content Card Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:831
+msgid "Activity Tab Button Background Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:846
+msgid "Activity Button Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:864
+msgid "Activity Button Font Size"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:883
+msgid "Activity Tab Border Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:1086
+msgid "Campaign Title Color"
+msgstr ""
+
+#: src/resources/views/customizer/pages/single-campaign-page.php:1104
+msgid "Campaign Title Font Size"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/all-camp-header.php:27
+msgid "Search"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/all-camp-header.php:31
+msgid "Sort by"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/all-camp-header.php:32
+msgid "Trending"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/all-camp-header.php:33
+msgid "Almost there"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/all-camp-header.php:34
+msgid "Newest"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/all-camp-header.php:35
+msgid "Successful"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/all-camp-header.php:36
+msgid "Last updated"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/camp-loop.php:83
+#: src/resources/views/public/single-campaign/campaign-story-tab.php:25
+msgid "Sorry"
+msgstr ""
+
+#: src/resources/views/public/all-campaigns/camp-loop.php:84
+msgid "No campaigns to show"
+msgstr ""
+
+#: src/resources/views/public/crowdfundly-template.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: src/resources/views/public/organization/template-one.php:30
+#: src/resources/views/public/organization/template-two.php:30
+msgid "Campaign slider image"
+msgstr ""
+
+#: src/resources/views/public/organization/template-one.php:80
+#: src/resources/views/public/organization/template-two.php:76
+msgid "Linked accounts"
+msgstr ""
+
+#: src/resources/views/public/single-campaign.php:92
+msgid "Campaign story"
+msgstr ""
+
+#: src/resources/views/public/single-campaign.php:100
+msgid "Updates"
+msgstr ""
+
+#: src/resources/views/public/single-campaign.php:122
+msgid "Endorsements"
+msgstr ""
+
+#: src/resources/views/public/single-campaign.php:133
+msgid "Top Contributors"
+msgstr ""
+
+#: src/resources/views/public/single-campaign.php:139
+msgid "Select a Package"
+msgstr ""
+
+#: src/resources/views/public/single-campaign.php:141
+msgid "Select a Reward"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-activites-tab.php:70
+msgid "No activities found for this campaign"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-activites-tab.php:92
+msgid "Load more"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-detail.php:29
+#: src/resources/views/public/single-campaign/form/after-donation.php:26
+#: src/resources/views/public/single-campaign/form/simple-donation.php:26
+msgid "by"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-detail.php:66
+msgid "Funds Raised"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-detail.php:80
+msgid "Days to Go"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-detail.php:146
+msgid "Support"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-detail.php:154
+msgid "Membership"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-endorsments-tab.php:31
+msgid "has endorsed as a"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-endorsments-tab.php:58
+msgid "No Endorsement found for this campaign"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-gallery.php:52
+msgid "Slider image"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-not-found.php:12
+msgid "Campaign not found"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-package.php:41
+#: src/resources/views/public/single-campaign/campaign-reward.php:79
+#: src/resources/views/public/single-campaign/modal/campaign-package-modal.php:78
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:119
+msgid "Get Now"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-package.php:58
+msgid "No Package Found"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-reward.php:20
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:61
+msgid "Only"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-reward.php:22
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:63
+msgid "left"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-reward.php:88
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:127
+msgid "OFF"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-reward.php:107
+msgid "No Reword Found"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-similar-camp.php:55
+#, php-format
+msgid "%1$d %2$s"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-similar-camp.php:57
+#, php-format
+msgid "OF %1$d %2$s"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-story-tab.php:28
+msgid "No story found"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-top-contributers.php:55
+msgid "No one has contributed yet."
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-updates-tab.php:53
+msgid "Campaign update image"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/campaign-updates-tab.php:76
+msgid "No Update Found"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/after-donation.php:17
+#: src/resources/views/public/single-campaign/form/simple-donation.php:17
+msgid "Back to Campaign"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/after-donation.php:59
+msgid "Message"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/after-donation.php:75
+#: src/resources/views/public/single-campaign/modal/campaign-package-modal.php:31
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:31
+msgid "Continue"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:44
+msgid "Amount *"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:53
+msgid ""
+"(Please select a preset amount or custom amount, a minimum of 1 or more.)"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:106
+msgid "Yes, Monthly"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:119
+msgid "No, donate once"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:128
+msgid "Email *"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:151
+msgid "Give Anonymously"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:161
+msgid "Shipping Location *"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:166
+msgid "Select Location"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:174
+msgid "Shipping Info *"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:183
+msgid "Address*"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:193
+msgid "State*"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:201
+msgid "Zip*"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:210
+msgid "City*"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:219
+msgid "Country*"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/form/simple-donation.php:230
+msgid "Choose A Payment Option"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/modal/campaign-package-modal.php:9
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:9
+msgid "Back this campaign"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/modal/campaign-package-modal.php:14
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:14
+msgid "Make a contribution"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/modal/campaign-package-modal.php:36
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:36
+msgid "Contributions are not associated with perks"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/modal/campaign-package-modal.php:43
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:43
+msgid "Select a Perk"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:80
+msgid "Shipping"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:91
+msgid "Shipping location: "
+msgstr ""
+
+#: src/resources/views/public/single-campaign/modal/campaign-reward-modal.php:97
+msgid "Shipping fee: "
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:13
+msgid "Reminder successfully set"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:15
+#: src/resources/views/public/single-campaign/set-reminder.php:67
+msgid "Remind me later"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:16
+msgid ""
+"We will send you an email to reminding you to make contribution later. "
+"Select when should we remind you"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:23
+msgid "12"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:25
+msgid "Hours"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:33
+msgid "1"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:35
+msgid "DAY"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:43
+msgid "2"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:45
+#: src/resources/views/public/single-campaign/set-reminder.php:55
+msgid "DAYS"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/set-reminder.php:53
+msgid "3"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:10
+msgid "Share this campaign"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:11
+msgid ""
+"A single share from you will usually lead to at least one contribution. "
+"Sharing this campaign only take 10 seconds"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:23
+msgid "Share On Facebook"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:37
+msgid "Share On Twitter"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:50
+msgid "Share On LinkedIn"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:63
+msgid "Share On Whatsapp"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:70
+msgid "Or print out this flyer and help spread the world"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:76
+msgid "Help growing clubs"
+msgstr ""
+
+#: src/resources/views/public/single-campaign/share-modal.php:81
+msgid "Download The PDF Flyer"
+msgstr ""

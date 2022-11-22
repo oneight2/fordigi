@@ -1,0 +1,543 @@
+.wpda_chart_tree_title {
+  display: inline-block;
+}
+.header_action_buttons {
+  float: right;
+  margin-right: 15px;
+}
+.option_panel {
+  background-color: white;
+  padding-bottom: 15px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  margin-right: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.org_chart_container * {
+  margin: 0;
+  padding: 0;
+}
+.tree ul {
+  white-space: nowrap;
+}
+.tree button > img {
+  width: 20px;
+  height: 20px;
+}
+.tree button {
+  visibility: hidden;
+  opacity: 0;
+}
+.tree .remove_tree_node,
+.tree .edit_tree_node {
+  visibility: hidden;
+  opacity: 0;
+}
+.wpdevart_tree_node {
+  position: relative;
+}
+.wpdevart_tree_node > span > img {
+  max-width: 90px;
+  max-height: 90px;
+}
+.tree .add_child_button {
+  width: 36px;
+  height: 18px;
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 2px;
+  background-size: 22px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  bottom: -14px;
+  transform: translate(-50%, 0);
+  cursor: pointer;
+  font-family: dashicons;
+  overflow: hidden;
+}
+.tree .add_child_button::before {
+  content: "\f347";
+  font-size: 30px;
+  line-height: 0px;
+  position: relative;
+  top: 8px;
+}
+.tree .add_child_button:hover::before {
+  content: "\f132";
+  font-size: 18px;
+  line-height: 0px;
+  position: relative;
+  top: 5px;
+}
+.tree .add_bro_right {
+  width: 18px;
+  height: 36px;
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 2px;
+  background-size: 12px 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: -14px;
+  z-index: 10;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(0, -50%);
+  font-family: dashicons;
+  overflow: hidden;
+}
+.tree .add_bro_right::before {
+  content: "\f345";
+  font-size: 30px;
+  line-height: 0px;
+  position: relative;
+  top: 8px;
+  right: 6px;
+}
+.tree .add_bro_right:hover::before {
+  content: "\f132";
+  font-size: 18px;
+  line-height: 0px;
+  position: relative;
+  top: 5px;
+  right: 1px;
+}
+
+.tree .add_bro_left {
+  width: 18px;
+  height: 36px;
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 2px;
+  background-size: 12px 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: -13px;
+  z-index: 10;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  font-family: dashicons;
+  overflow: hidden;
+}
+.tree .add_bro_left::before {
+  content: "\f341";
+  font-size: 30px;
+  line-height: 0px;
+  position: relative;
+  top: 8px;
+  right: 8px;
+}
+.tree .add_bro_left:hover::before {
+  content: "\f132";
+  font-size: 18px;
+  line-height: 0px;
+  position: relative;
+  top: 5px;
+  right: 1px;
+}
+.tree li > div:hover > button {
+  visibility: visible;
+  opacity: 1;
+}
+.tree li > div:hover > .remove_tree_node,
+.tree li > div:hover > .edit_tree_node {
+  visibility: visible;
+  opacity: 1;
+}
+#wpdevart_tree {
+  text-align: center;
+}
+.org_chart_container li > div {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #666;
+  font-family: arial, verdana, tahoma;
+  font-size: 11px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  min-height: 120px;
+  min-width: 120px;
+}
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+}
+.tree li {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+}
+
+.tree li::before,
+.tree li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 1px solid #ccc;
+  width: 50%;
+  height: 20px;
+}
+
+.tree li:after {
+  right: auto;
+  left: 50%;
+  border-left: 1px solid #ccc;
+}
+
+.tree li:only-child::after,
+.tree li:only-child::before {
+  display: none;
+}
+.tree li:only-child {
+  padding-top: 0;
+}
+.tree li:first-child::before,
+.tree li:last-child::after {
+  border: 0 none;
+}
+.tree li:last-child::before {
+  border-right: 1px solid #ccc;
+  border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+}
+
+.tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+}
+.tree ul ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+.remove_tree_node {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  cursor: pointer;
+  color: red;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  width: 23px;
+  height: 22px;
+  z-index: 2;
+}
+.edit_tree_node {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  cursor: pointer;
+  color: #00a0d2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  width: 23px;
+  height: 22px;
+  z-index: 2;
+}
+.node_popup_icon {
+  background-image: url(../images/has_popup.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  z-index: 0;
+}
+.node_popup_icon.img_item {
+  top: 10px;
+}
+.node_link_icon {
+  background-image: url(../images/has_link.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  z-index: 0;
+}
+.node_link_icon.img_item {
+  top: 10px;
+}
+.node_link_icon.all_item.move_link_right {
+  right: 2px;
+  left: auto;
+}
+.node_link_icon.img_item.move_link_right {
+  right: 2px;
+  left: auto;
+}
+.node_link_icon.title_item.move_link_right {
+  right: 2px;
+  left: auto;
+}
+.node_link_icon.description_item.move_link_right {
+  right: 2px;
+  left: auto;
+}
+/*######################################### Params help ###################################*/
+/*######################################### Params help ###################################*/
+/*######################################### Params help ###################################*/
+.wpdevart-info-container {
+  display: inline-block;
+  position: absolute;
+  z-index: 4;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #989898;
+  border-radius: 100%;
+  right: 20px;
+  text-align: center;
+  line-height: 1;
+  box-shadow: 0 0 7px rgba(167, 167, 167, 0.62) inset;
+  cursor: pointer;
+  font-weight: bold;
+  color: #444;
+}
+.wpdevart-info-container .wpdevart-info {
+  position: absolute;
+  display: none;
+  left: 30px;
+  top: -7px;
+  background-color: #292d31;
+  padding: 7px;
+  z-index: 1;
+  min-width: 200px;
+  color: #c5d3d6;
+  box-shadow: 0 0 2px #000;
+  text-align: left;
+  line-height: 1.3;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+.red-section .wpdevart-info {
+  color: red;
+}
+.wpdevart-info-container:hover .wpdevart-info {
+  display: block;
+}
+/*admin popup parameters*/
+.wpdevart_overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: black;
+  z-index: 99999;
+  opacity: 0.5;
+}
+.wpdevart_popup_container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000;
+  background: white;
+  border: 1px solid #000;
+  border-radius: 5px;
+  min-width: 700px;
+  min-height: 450px;
+  box-sizing: border-box;
+}
+.wpdevart_popup_header_line {
+  background: black;
+  height: 25px;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  right: 0px;
+}
+.wpdevart_popup_header_line button {
+  float: right;
+  margin-right: 3px;
+  padding-top: 0px;
+  vertical-align: top;
+  font-family: sans-serif;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.wpdevart_popup_header_line span {
+  color: white;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-left: 3px;
+  display: inline-block;
+  font-family: sans-serif;
+}
+.wpdevart_popup_container .parameter_line {
+  margin-top: 6px;
+  vertical-align: top;
+  text-align: left;
+}
+.wpdevart_popup_container .parameter_line.param_line_full_width .param_desc {
+  display: block;
+}
+.wpdevart_popup_container .parameter_line.param_line_full_width .param {
+  width: 100%;
+}
+
+#wpdevart_upload_image_for_tree {
+  min-width: 210px;
+}
+.wpdevart_popup_container .param_desc {
+  display: inline-block;
+  min-width: 250px;
+  min-height: 30px;
+  vertical-align: top;
+}
+.wpdevart_popup_container .param_desc span {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+.wpdevart_popup_container .param {
+  display: inline-block;
+}
+.wpdevart_popup_container .param button {
+  margin-left: 3px;
+}
+.wpdevart_popup_container .title_input {
+  min-width: 277px;
+}
+.wpdevart_popup_container .param textarea {
+  min-width: 277px;
+  min-height: 100px;
+}
+.wpdevart_popup_container .param label {
+  vertical-align: top;
+  margin-right: 5px;
+  margin-left: -3px;
+  position: relative;
+  bottom: 2px;
+}
+.wpdevart_popup_update {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.node_img {
+  position: relative;
+  display: inline-block;
+  min-width: 120px;
+  min-height: 60px;
+}
+.node_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 92px;
+  font-weight: bold;
+  font-size: 13px;
+  position: relative;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.node_desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90px;
+  position: relative;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.tree_name {
+  margin-bottom: 10px;
+  height: 36px;
+  font-size: 18px;
+  width: calc(100% - 16px);
+}
+/*popup tab css*/
+.div-for-clear {
+  clear: both;
+}
+#wpdevart-tabs-item-container > .wpdevart_container {
+  display: none;
+}
+div.wpdevart_tab {
+  font-size: 15px;
+  float: left;
+  padding: 9px 27px 10px;
+  border: 1px solid #e2e2e2;
+  margin-right: 2px;
+  background-color: #ffffff;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+  color: #65666b;
+}
+div.wpdevart_tab.show {
+  border-bottom: 0;
+  padding-bottom: 9px;
+  border-top: 3px solid #04a9dd;
+  background: #fff;
+  color: #04a9dd;
+}
+div#wpdevart-tabs-item-container {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #e2e2e2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 320px;
+  margin-bottom: 38px;
+}
+#wpdevart-popup-tabs-container {
+  padding: 10px;
+}
+
+#org_chart_tinymce_container {
+  display: none;
+}
+.wpda-column-small{
+  width:100px;
+}
+.wpda-column-small:last-child{
+  width:80px;
+}
+.wp-list-table.widefat.fixed.pages > thead > tr > th:first-child{
+  width:60px;
+}
+.wp-list-table.widefat.fixed.pages td{
+  text-align: left;
+}
+.tablenav-pages-navspan.button{
+  margin-left:2px !important;
+}
+.current-page.wpda-current-page{
+  margin-left:2px !important;
+}
+.tablenav{
+  vertical-align: top;
+}
+.pageCount{
+  vertical-align: middle;
+  padding-top: 5px;
+  display: inline-block;
+}

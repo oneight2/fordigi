@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "codeName": "wp",
+        "name": "WordPress",
+        "iconPath": "images/admin/logo/wp-logo.svg",
+        "description": "Connect with your WordPress system.",
+        "handlers": [
+            { "wp_user": false, "label": "WordPress User" }
+        ]
+    },
+    {
+        "id": 2,
+        "codeName": "fcrm",
+        "name": "Fluent CRM",
+        "iconPath": "images/admin/logo/fcrm-logo.svg",
+        "description": "Maintain existing & potential customers.",
+        "pluginPath": "fluent-crm/fluent-crm.php",
+        "isActive": {
+            "constant": "FLUENTCRM"
+        },
+        "handlers": [
+            { "fcrm_contact": false, "label": "Create Contact", "lists": null, "tags": [] }
+        ]
+    }
+]

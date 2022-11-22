@@ -1,0 +1,35 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+.wpdevart_gutenberg_timer_main_div label {
+  min-width: 120px;
+  display: inline-block;
+}
+.wpdevart_gutenberg_timer_main_div select {
+  min-width: 120px;
+}
+.wpdevart_gutenberg_timer_main_div > span {
+  font-weight: bold;
+  color: #0085ba;
+}
+.wpdevart_gutenberg_chart_option_div,
+.wpdevart_gutenberg_chart_theme_option_div {
+  font-size: 16px;
+}
+.wpdevart_gutenberg_chart_css,
+.wpdevart_gutenberg_theme_css {
+  padding: 0px 25px 0px 10px !important;
+  margin: 0px 0px 0px 10px !important;
+  line-height: normal !important;
+  border: 1px solid #ccc !important;
+  font-size: 14px !important;
+}
+.wpdevart_gutenberg_chart_css {
+  margin-left: 28px !important;
+}
+.wpdevart_gutenberg_chart_option_div {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

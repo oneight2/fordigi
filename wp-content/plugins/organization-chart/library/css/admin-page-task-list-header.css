@@ -1,0 +1,241 @@
+.wpdevart_plugins_header {
+  margin: 10px 0px 10px 0px;
+}
+.wpdevart_plugins_get_pro {
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  float: left;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.04);
+}
+.wpdevart_plugins_get_pro_info {
+  float: left;
+  margin-right: 30px;
+}
+.wpdevart_plugins_get_pro_info h3 {
+  margin: 0 0 5px 0;
+  font-size: 17px;
+  font-weight: 500;
+}
+.wpdevart_plugins_get_pro_info p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 200;
+}
+.wpdevart_support,
+.wpdevart_upgrade {
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 400;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  background-image: linear-gradient(141deg, #7052fb, #00a0d2);
+}
+.wpdevart_upgrade {
+  float: left;
+  padding: 11px 25px 12px;
+  text-transform: uppercase;
+}
+.wpdevart_support {
+  float: right;
+  padding: 11px 20px 12px 50px;
+  margin-top: 15px;
+  position: relative;
+}
+.wpdevart_support:before {
+  content: "";
+  background: url(../images/support-white.png) no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: 25px;
+  top: 8px;
+  position: absolute;
+  left: 15px;
+}
+.div-for-clear:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.wpdevart_support:hover,
+.wpdevart_upgrade:hover,
+.wpdevart_support:focus,
+.wpdevart_upgrade:focus {
+  color: #ffffff;
+  opacity: 0.85;
+  box-shadow: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.red-section .wpdevart-info {
+  color: red;
+}
+
+.wpdevart_page_head h2 {
+  height: 30px;
+}
+.wpdevart_plugins_header.full_width {
+  width: 100%;
+  padding-right: 20px;
+}
+.wpdevart_plugins_header.full_width .wpdevart_support {
+  margin-right: 15px;
+  margin-top: 0px;
+}
+
+/*admin popup paramters*/
+.wpdevart_ovrlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: black;
+  z-index: 99999;
+  opacity: 0.5;
+}
+.wpdevart_popup_conteiner {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000;
+  background: white;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 550px;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+.wpdevart_popup_header_line {
+  background: black;
+  height: 25px;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  right: 0px;
+}
+.wpdevart_popup_header_line button {
+  float: right;
+  margin-right: 3px;
+  padding-top: 0px;
+  vertical-align: top;
+  font-family: sans-serif;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.wpdevart_popup_header_line span {
+  color: white;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-left: 3px;
+  display: inline-block;
+  font-family: sans-serif;
+}
+.wpdevart_popup_conteiner .paramter_line {
+  margin-top: 6px;
+  vertical-align: top;
+  text-align: left;
+}
+#wpdevart_upload_image_for_tree {
+  min-width: 210px;
+}
+.wpdevart_popup_conteiner .param_desc {
+  display: inline-block;
+  min-width: 193px;
+  min-height: 30px;
+  vertical-align: top;
+}
+.wpdevart_popup_conteiner .param_desc span {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+.wpdevart_popup_conteiner .param {
+  display: inline-block;
+}
+.wpdevart_popup_conteiner .param button {
+  margin-left: 3px;
+}
+.wpdevart_popup_conteiner .title_input {
+  min-width: 277px;
+}
+.wpdevart_popup_conteiner .param textarea {
+  min-width: 277px;
+}
+.wpdevart_popup_conteiner .param label {
+  vertical-align: top;
+  margin-right: 5px;
+  margin-left: -3px;
+  position: relative;
+  bottom: 2px;
+}
+.wpdevart_popup_update {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.node_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 102px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.node_desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 102px;
+}
+.tree_name {
+  margin-bottom: 10px;
+  height: 36px;
+  font-size: 18px;
+  width: calc(100% - 16px);
+}
+/*popup tab css*/
+.div-for-clear {
+  clear: both;
+}
+#wpdevart-tabs-item-container > .wpdevart_container {
+  display: none;
+}
+div.wpdevart_tab {
+  font-size: 15px;
+  float: left;
+  padding: 9px 27px 10px;
+  border: 1px solid #e2e2e2;
+  margin-right: 2px;
+  background-color: #ffffff;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+  color: #65666b;
+}
+div.wpdevart_tab.show {
+  border-bottom: 0;
+  padding-bottom: 9px;
+  border-top: 3px solid #04a9dd;
+  background: #fff;
+  color: #04a9dd;
+}
+div#wpdevart-tabs-item-container {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #e2e2e2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 270px;
+}
+#wpdevart-popup-tabs-container {
+  padding: 10px;
+}
